@@ -1,0 +1,65 @@
+<style>
+#searchbox {
+    border:3px solid #eee;
+    padding: 20px 4px;
+    width: 265px;
+    padding-bottom:30px;
+    padding-top:22px;
+}
+#searchbox {
+padding-left:38px;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+#searchbox input {
+    outline: none;
+}
+#searchbox input[type="text"] {
+    background: url(http://2.bp.blogspot.com/-xpzxYc77ack/VDpdOE5tzMI/AAAAAAAAAeQ/TyXhIfEIUy4/s1600/search-dark.png) no-repeat 10px 6px #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: black;
+    width: 70%;
+    padding: 8px 15px 8px 30px;
+    margin-top:0px;
+    border:1px solid #eee;
+}
+#button-submit {
+    background: #222222;
+    border-width: 0px;
+    padding: 9px 10px;
+    width: 25%;
+    cursor: pointer;
+    font: bold 12px Arial, Helvetica;
+    color: #fff;
+    text-shadow: 0 1px 0 #555;
+}
+#button-submit:hover {
+    background: #4f5356;
+}
+#button-submit:active {
+    background: #5b5d60;
+    outline: none;
+}
+#button-submit::-moz-focus-inner {
+    border: 0;
+}
+</style>
+<form id="searchbox" method="get" action="/search">
+<a href='http://feeds.feedburner.com/StarsBlogging' rel='nofollow' target='_blank'> <img alt='Click Me' onmouseout='this.src=&apos;http://1.bp.blogspot.com/--VKL86l-Jb8/UOpZTI1QdYI/AAAAAAAALHc/pobvypvYAkY/s1600/rss-inactive.png&apos;' onmouseover='this.src=&apos;http://1.bp.blogspot.com/-4suOkcJcrEY/UOpZSLOgEAI/AAAAAAAALHQ/Bfo2GP16lVk/s1600/rss.png&apos;' src='http://1.bp.blogspot.com/--VKL86l-Jb8/UOpZTI1QdYI/AAAAAAAALHc/pobvypvYAkY/s1600/rss-inactive.png'/></a>
+<a href='#' rel='nofollow' target='_blank'><img alt='Click Me' hieght='100' onmouseout='this.src=&apos;http://4.bp.blogspot.com/-cr9boutcy-s/UOpZATc-69I/AAAAAAAALGU/-OJr2yI988k/s1600/facebook-inactive.png&apos;' onmouseover='this.src=&apos;http://1.bp.blogspot.com/-KB8iKLter1I/UOpY-36lZzI/AAAAAAAALGI/XNGi27H5UaA/s1600/facebook.png&apos;' src='http://4.bp.blogspot.com/-cr9boutcy-s/UOpZATc-69I/AAAAAAAALGU/-OJr2yI988k/s1600/facebook-inactive.png'/></a>
+<a href='#' rel='nofollow' target='_blank'><img alt='Click Me' onmouseout='this.src=&apos;http://2.bp.blogspot.com/-vfdnT942AG0/UOpZbVIg7-I/AAAAAAAALH0/f1yb38pRaBg/s1600/twitter-inactive.png&apos;' onmouseover='this.src=&apos;http://4.bp.blogspot.com/-1-MHoTTgPNo/UOpZa9PAwuI/AAAAAAAALHo/khEpCb1lAK0/s1600/twitter.png&apos;' src='http://2.bp.blogspot.com/-vfdnT942AG0/UOpZbVIg7-I/AAAAAAAALH0/f1yb38pRaBg/s1600/twitter-inactive.png'/></a>
+<a href='#' rel='nofollow' target='_blank'><img alt='Click Me' hieght='160' onmouseout='this.src=&apos;http://2.bp.blogspot.com/-80lPTxcgo0c/UOpZPjm3eBI/AAAAAAAALGs/gNMX65WTC_U/s1600/google-plus-inactive.png&apos;' onmouseover='this.src=&apos;http://1.bp.blogspot.com/-iDS8TSF6atk/UOpZBRDDbYI/AAAAAAAALGg/IPL4upm_zgI/s1600/google-plus.png&apos;' src='http://2.bp.blogspot.com/-80lPTxcgo0c/UOpZPjm3eBI/AAAAAAAALGs/gNMX65WTC_U/s1600/google-plus-inactive.png'/></a>
+<a href='#' rel='nofollow' target='_blank'><img alt='Click Me' onmouseout='this.src=&apos;http://1.bp.blogspot.com/-LIVfFyuMd6Y/UOpZRHWUq3I/AAAAAAAALHE/txTdlnAwSrs/s1600/pinterest-inactive.png&apos;' onmouseover='this.src=&apos;http://3.bp.blogspot.com/-l16hOlygfME/UOpZQaHRQHI/AAAAAAAALG4/Ank4It2IZcE/s1600/pinterest.png&apos;' src='http://1.bp.blogspot.com/-LIVfFyuMd6Y/UOpZRHWUq3I/AAAAAAAALHE/txTdlnAwSrs/s1600/pinterest-inactive.png'/></a></p>
+<input name="q" type="text" size="15" placeholder="Type here..." />
+<input id="button-submit" type="submit" value="Search" />
+</form> 
